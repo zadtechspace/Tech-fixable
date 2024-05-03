@@ -20,7 +20,7 @@
     padding: 20px 100px;
 }
 
-nav{
+.nav1{
 
 width: 100%;
 display: flex;
@@ -28,17 +28,15 @@ justify-content: space-between;
 /* align-items: center; */
 }
 
-.navbox1{
+/* .navbox1{
     width: 50%;
-}
+} */
 
-.navbox1 img{
-    width: 50%;
-}
-.navbox1 p{
+
+.logo p{
     text-align: center;
     font-size: 12px;
-    width: 50%;
+    /* width: 50%; */
     color: white;
     filter: brightness(70%);
     /* padding-left: 25px; */
@@ -58,6 +56,10 @@ justify-content: space-between;
    padding-left: 10px;
    font-size: 14px;
    
+}
+
+.nav2{
+    display: none;
 }
 
 .hero{
@@ -332,6 +334,27 @@ justify-content: space-between;
     .s1{
         height: 400px;
     }
+
+    .nav1{
+        display: none;
+    }
+
+    .nav2{
+        display: block;
+    }
+
+    .logo img{
+        width: 40%;
+    }
+    .logo p{
+        font-size: 1.5vw;
+        /* text-align: start; */
+        width: 40%;
+    }
+    .offcanvas{
+        background-color: #abc3ff;
+        height: fit-content;
+    }
     
   .s1boxes{
     padding: 10px;
@@ -351,6 +374,10 @@ justify-content: space-between;
   
 .hero p{
     font-size: 2.8vw;
+}
+
+.signupimage{
+    display: none;
 }
 
 .s2{
