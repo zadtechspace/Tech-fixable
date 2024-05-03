@@ -1,20 +1,8 @@
-body{
-    padding: 0px;
-    margin: 0px;
-    /* overflow-x: hidden; */
-    /* background-color: #e4e9fc; */
-}
 
-*{
-    box-sizing: border-box;
-    padding: none;
-    margin: none;
-
-}
 
 .s1{
     width: 100%;
-    height: 600px;
+    height: 550px;
     background: url(img/unsplash_xh8SgY9_ob4.png);
     background-size: cover;
     background-position: 50%;
@@ -24,7 +12,7 @@ body{
 }
 .s1boxes{
     background-color:rgb(72,90,130,.8);
-    height: 600px;
+    height: 550px;
     width: 100%;
     position: absolute;
     left: 0;
@@ -97,7 +85,7 @@ justify-content: space-between;
     margin-top: 20px;
 }
 .hero div button{
-    margin-top: 30px;
+    margin-top: 5px;
     border: none;
     border-radius: 30px;
     padding: 10px 20px;
@@ -338,4 +326,85 @@ justify-content: space-between;
 
 .footerbox3{
     padding-top: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .s1{
+        height: 400px;
+    }
+    
+  .s1boxes{
+    padding: 10px;
+    height: 400px;
+
+  }
+
+  .hero{
+    width: 100%;
+    padding: 0px 10px;
+    margin-top: 30px;
+  }
+
+  .hero h2{
+    font-size: 6vw;
+  }
+  
+.hero p{
+    font-size: 2.8vw;
+}
+
+.s2{
+width: 100%;
+padding: 5px;
+}
+.s2boxes{
+width: 100%;
+}
+
+.s2box1{
+    width:100%;
+    
+}
+
+.s2box1 img{
+    width:100% ;
+}
+.s2box2div1 h5{
+    font-size: 2vw;
+    
+}
+
+.s2box2div1 p{
+    width: 100%;
+    font-size: 2vw;
+}
+
+.s2box2div2{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    gap: 0px;
+}
+
+.s2box2div2 div{
+    font-size: 2vw;
+    padding: 5px;
+    
+    }
+
+.s3{
+    width: 100%;
+    padding: 10px;
+}
+.s3boxes{
+    width: 100%;
+    padding: 0px;
+}
+
+.s3box1 h5{
+    font-size: 6vw;
+    font-weight: bold;
+}
+.s3box1 p{
+    font-size: 3vw;
+}
 }

@@ -6,7 +6,7 @@
  
   import { getFirestore,collection, addDoc } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js";
  
-  import { getAuth, createUserWithEmailAndPassword,GoogleAuthProvider,signInWithPopup } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-auth.js";
+  import { getAuth, createUserWithEmailAndPassword,GoogleAuthProvider,signInWithPopup,FacebookAuthProvider } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-auth.js";
 
   // Your web app's Firebase configuration
   const firebaseConfig = {
@@ -24,6 +24,7 @@
   const auth = getAuth();
   const docRef = collection(db, "users")
   const googleProvider = new GoogleAuthProvider();
+  const facebookProvider = new FacebookAuthProvider();
 
   
 getStartedBtn.addEventListener('click',(e)=>{
@@ -69,6 +70,15 @@ googlebtn.addEventListener('click', (e)=>{
   e.preventDefault();
 
   signInWithPopup(auth, googleProvider)
+})
+
+facebookbtn.addEventListener('click', (e)=>{
+
+  e.preventDefault();
+
+  signInWithPopup(facebookProvider)
+
+
 })
 
 
