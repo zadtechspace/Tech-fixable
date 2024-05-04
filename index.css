@@ -254,7 +254,7 @@ justify-content: space-between;
 
 .s4box1 h5{
     font-size: 40px;
-    font-weight: bold;
+    font-weight: bolder;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #31467a;
     margin-top: 30px;
@@ -356,8 +356,10 @@ justify-content: space-between;
     .offcanvas{
         background-color: #abc3ff;
         height: fit-content;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
     }
-    
+ 
   .s1boxes{
     padding: 10px;
     height: 400px;
@@ -397,14 +399,15 @@ width: 100%;
 
 
 .s2box2div1 h5{
-    font-size: 4vw;
+    font-size: 6vw;
+    width: 100%;
     
     
 }
 
 .s2box2div1 p{
     width: 100%;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .s2box2div2{
@@ -416,6 +419,7 @@ width: 100%;
 .s2box2div2 div{
     font-size: 2vw;
     padding: 5px;
+    width: 100%;
     
     }
 
@@ -428,7 +432,13 @@ width: 100%;
 .s2box2div3 div{
     font-size: 2vw;
     padding: 5px;
+    width: 100%;
     
+    }
+
+.s2box2div2 div img, .s2box2div3 div img{
+        width: 25%;
+        /* height: 5vh; */
     }
 
 .s3{
@@ -462,4 +472,49 @@ width: 100%;
 .s3box2 span p, .s3box3 span p{
     font-size: 3vw;
 }
+
+.s4boxes{
+    padding: 10px;
+    gap: 0px;
+}
+
+.s4box2{
+    display: none;
+}
+
+.s4box1 h5{
+    font-size: 7vw;
+
+}
+
+.s4box1 p{
+    font-size: 4vw;
+    margin-top: 20px;
+}
+
+.s4box1btn1, .s4box1btn2{
+    margin-top: 20px;
+}
+
+.footer{
+    padding: 10px;
+}
+
+.footerboxes{
+    flex-direction: column;
+}
+
+.footer span img{
+    width: 15%;
+}
+
+.footer h6{
+    font-size: 5vw;
+}
+
+.footer p{
+font-size: 3vw;
+}
+
+
 }
