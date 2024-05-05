@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(171,195,255);
+}
+.s1{
+    width: 100%;
+    height: auto;
+   
+   
+    
+}
+
+.s1boxes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    border-radius: 10px;
+    padding: 30px 100px;
+    
+}
+
+.s1box1 img{
+   width:450px ;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.s1box2{
+    display: none;
+}
+
+.s1box3{
+    /* width: 50%; */
+ padding:45px ;
+background-color: white;
+border-radius: 0px 10px 10px 0px;
+}
+.form{
+    margin-top:50px;
+}
+.s1box3 input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid grey;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.passwordlabel{
+    margin-top: 30px;
+}
+
+#signinbtn{
+    width: 100%;
+    background-color: #abc3ff;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+#forgotpassword{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: blue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.yettoopenacct{
+    text-align: center;
+    color: blue;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.googlefacebookdiv{
+    text-align: center;
+    margin-top: 30px;
+}
+#google, #facebook{
+   
+    border-radius: 20px;
+    padding: 5px 40px;
+    font-size: 14px;
+} 
+
+
+@media screen and (max-width: 768px){
+
+  
+    .s1boxes{
+    padding:0px 5px;
+    flex-direction: column;
+   }
+
+   .s1box1{
+    display: none;
+   }
+
+   .s1box2{
+    display: block;
+    text-align: center;
+    background-color: #c1d2fa;
+    margin-top: 40px;
+    border-radius: 20px 20px 5px 5px;
+    padding: 20px 10px;
+    position: relative;
+    
+   }
+
+   .s1box2 p, .s1box2 h6{
+    font-size: 3vw;
+   }
+
+   .s1box3{
+    width: 100%;
+    height: auto;
+    padding: 10px 30px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    bottom: 15px;
+   }
+
+.s1box3 h3{
+    font-size: 5vw;
+}
+
+   .form{
+    margin-top:25px;
+}
+
+.s1box3 input{
+    font-size: 4vw;
+}
+
+label{
+    font-size: 4vw;
+    font-weight: 500;
+}
+.passwordlabel{
+    margin-top: 10px;
+}
+
+#forgotpassword{
+    font-size: 4vw;
+}
+
+.yettoopenacct{
+   
+    font-size: 4vw;
+    margin-top: 0px;
+}
+
+   .quicksignup{
+    font-size: 3vw;
+    text-wrap: nowrap;
+    margin-top: 0px !important;
+   }
+   .modalquicksignup{
+    margin-top: 10px !important;
+   }
+
+   .googlefacebookdiv{
+    text-align: center;
+    margin-top: 0px;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+
+#google, #facebook{
+   
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 14px;
+} 
+}

@@ -41,6 +41,8 @@ getStartedBtn.addEventListener('click',(e)=>{
     const user = userCredential.user;
     alert('Successfully Signed Up...')
 
+    window.location.href= "signin.html"
+
     
     
   })
@@ -70,6 +72,11 @@ googlebtn.addEventListener('click', (e)=>{
   e.preventDefault();
 
   signInWithPopup(auth, googleProvider)
+
+  .then(()=>{
+    
+  })
+ 
 })
 
 facebookbtn.addEventListener('click', (e)=>{
@@ -81,6 +88,20 @@ facebookbtn.addEventListener('click', (e)=>{
 
 })
 
+signinbtn.addEventListener('click',(e)=>{
+  alert("Hello world")
+})
+
+
+// btn1.addEventListener('click',(e)=>{
+//   alert("hello world")
+// })
+
+// btn1=(e)=>{
+
+//   e.preventDefault()
+//   alert('Hello world')
+// }
 
 
 
