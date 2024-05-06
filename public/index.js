@@ -1,12 +1,12 @@
 
 
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
  
-  import { getDatabase } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-database.js";
+  // import { getDatabase } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-database.js";
  
-  import { getFirestore,collection, addDoc } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js";
+  import { getFirestore,collection, addDoc } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
  
-  import { getAuth, createUserWithEmailAndPassword,GoogleAuthProvider,signInWithPopup,FacebookAuthProvider } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-auth.js";
+  import { getAuth, createUserWithEmailAndPassword,GoogleAuthProvider,signInWithPopup,FacebookAuthProvider } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
 
   // Your web app's Firebase configuration
   const firebaseConfig = {
@@ -88,9 +88,9 @@ facebookbtn.addEventListener('click', (e)=>{
 
 })
 
-signinbtn.addEventListener('click',(e)=>{
-  alert("Hello world")
-})
+// signinbtn.addEventListener('click',(e)=>{
+//   alert("Hello world")
+// })
 
 
 // btn1.addEventListener('click',(e)=>{

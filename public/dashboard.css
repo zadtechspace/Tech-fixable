@@ -1,5 +1,8 @@
 
-
+.body{
+    background-color: #eef2fb;
+    height: 100vh;
+}
 nav{
     background-color: rgb(238,242,251);
     width: 100%;
@@ -44,4 +47,15 @@ nav{
        background-color: #d7e3fd;
        color: #012577;;
        
+    }
+
+    .calender{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .calender input{
+        padding: 200px;
+        background-color: #eef2fb;
     }

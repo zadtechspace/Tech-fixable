@@ -3,7 +3,7 @@ body{
 }
 .s1{
     width: 100%;
-    height: auto;
+    height: 100vh;
    
    
     
@@ -93,7 +93,7 @@ border-radius: 0px 10px 10px 0px;
 
   
     .s1boxes{
-    padding:0px 6px;
+    padding:0px 10px;
     flex-direction: column;
    }
 
@@ -107,8 +107,10 @@ border-radius: 0px 10px 10px 0px;
     background-color: #c1d2fa;
     margin-top: 40px;
     border-radius: 20px 20px 5px 5px;
-    padding: 20px 10px;
+    padding: 25px 10px;
     position: relative;
+    /* height: 50vh; */
+    
     
    }
 
@@ -122,7 +124,7 @@ border-radius: 0px 10px 10px 0px;
     padding: 10px 30px;
     border-radius: 20px 20px 0px 0px;
     position: relative;
-    bottom: 15px;
+    bottom: 10px;
    }
 
 .s1box3 h3{
@@ -170,7 +172,7 @@ label{
     display: flex;
    
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #google, #facebook{
