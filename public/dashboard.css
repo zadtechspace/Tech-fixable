@@ -1,6 +1,7 @@
 .themaincontainer{
     height: fit-content;
     background-color: #eef2fb;
+    padding: 0px 0px 50px 0px;
 }
 header{
     padding: 20px 0px 5px 80px;
@@ -143,12 +144,7 @@ header{
   
 
     @media screen and (max-width:1000px) {
-        .themaincontainer{
-            height: auto;
-            
-        }
-
-
+       
        header{
         padding: 10px;
         border: none;
