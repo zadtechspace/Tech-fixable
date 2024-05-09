@@ -95,7 +95,7 @@ border: 2px solid rgb(72,90,130) ;
    
     border-radius: 20px;
     padding: 5px 40px;
-    font-size: 14px;
+    font-size: 12px;
 } 
 
 
@@ -190,6 +190,10 @@ label{
    
     border-radius: 20px;
     padding: 5px 20px;
-    font-size: 14px;
+    font-size: 3vw;
 } 
+
+#google img, #facebook img{
+    width: 20%;
+}
 }
