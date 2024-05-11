@@ -209,9 +209,7 @@ header{
     .time{
         padding: 2.5px 10px;
     }
-    .calender{
-        /* display: none; */
-    }
+    
     .calender input{
         padding: 100px;
     }
